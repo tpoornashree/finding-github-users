@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(image/image.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    background-image: repeating-linear-gradient();
+}
+
+
+input {
+    background-image: linear-gradient(to left bottom, #042c6b, #01275c, #02224e, #031c40, #051732, #0a1630, #0e162f, #11152d, #1c1936, #291b3d, #371e43, #461f48);
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+        0 15px 40px rgba(0, 0, 0, 0.1);
+    color: white;
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    opacity: 98%;
+}
+
+input::placeholder {
+    color: #bbb;
+    font-family: 'Roboto', sans-serif;
+}
+
+input:focus {
+    outline: none;
+}
+
+.card {
+    background-color: black;
+    background-image: linear-gradient(to right bottom, #042c6b, #01275c, #02224e, #031c40, #051732, #0a1630, #0e162f, #11152d, #1c1936, #291b3d, #371e43, #461f48);
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+        0 15px 40px rgba(0, 0, 0, 0.1);
+    display: flex;
+    padding: 3rem;
+    max-width: 800px;
+    opacity: 98%;
+}
+
+.avatar {
+    border: 10px solid #461F48;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.user-info {
+    color: #eee;
+    margin-left: 2rem;
+}
+
+.user-info h2 {
+    margin-top: 0;
+}
+
+.user-info ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    max-width: 400px;
+}
+
+.user-info ul li {
+    display: flex;
+    align-items: center;
+}
+
+.user-info ul li strong {
+    font-size: 0.9rem;
+    margin-left: 0.5rem;
+}
+
+.name
+{
+    color: black;
+    font-weight: 1000;
+    font-size: 20px;
+    margin-left: 42rem;
+}
+
+.home,a{
+    float: right;
+    font-size: 37px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.repo {
+    background-color: #232f6e;
+    border-radius: 5px;
+    display: inline-block;
+    color: white;
+    font-size: 0.7rem;
+    padding: 0.25rem 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+}
+
